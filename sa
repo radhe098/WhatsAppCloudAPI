@@ -1,0 +1,8 @@
+const btn = document.getElementsByClassName('btn')[0]; 
+var userInputDiv = document.querySelector(".user-input");
+
+
+btn.addEventListener('click', () => {
+   
+    userInputDiv.querySelector("input[type='text']").value = "";
+});

@@ -1,0 +1,101 @@
+body{
+   background-color: rgb(221, 255, 255);
+   padding:20px;
+}
+h1{
+   text-align: center;
+   color:red;
+}
+div{
+
+}
+input{
+ background-color: white;  
+}
+.chat-div{
+   height: 25rem;
+   width:18rem;
+   background-color:skyblue   ;
+   border: 1px solid black;
+   border-radius: 10px;
+   position: fixed;
+   bottom: 0;
+   right: 0;
+   bottom: 20px;
+   right: 20px; 
+   z-index: 1000; 
+   overflow-y: auto;
+   display:flex;
+   flex-direction: column;
+   justify-content: space-between;
+   @media (max-width: 768px) {
+   position: fixed;
+   right:0;
+   bottom: 0;
+   z-index: 1000;
+   overflow-y: auto;
+   display:flex;
+   flex-direction: column;
+   justify-content: space-between;
+
+  }   
+}
+.chats{
+padding: 10px;
+height: 100%;
+font-size: 1rem;
+overflow-y: auto;
+text-color: black;
+align-items: flex-end;
+display:flex;
+flex-direction: column;
+justify-content: flex-end;
+}
+.msg{ background-color: white;
+
+   border-radius: 5px;
+   margin: 10px;
+   padding: 4px;
+   align-self: flex-end;
+   width: fit-content;
+   text-align: right;   
+text-align: right;
+}
+
+.head{
+   position: relative;
+   background-color:green;
+   color: white;
+   padding: 10px;
+   text-align: center;
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+}
+.user-input{
+   margin-bottom:0.3rem;
+   display:flex;
+   flex-direction: row;
+   padding: 4px;
+   border: 1px solid black;
+   border-radius:20px;
+   background-color:white;
+}
+.user-input input{
+
+   width: 100%;
+   padding: 3px;
+   border-radius: 10px;
+   border: 1px solid white;
+}
+.user-input button{
+   border:1px solid white;
+   border-radius:5px;
+}
+img{
+   height:300px;
+   width:400px;
+}
+.images{
+   display:grid;
+   
+}
